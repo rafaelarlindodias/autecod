@@ -1,0 +1,23 @@
+{
+  "name": "projetos",
+  "version": "1.0.0",
+  "description": "Autor: Rafael",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass sass/main.scss stylesass.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelarlindodias/autecod.git"
+  },
+  "author": "Rafael Dias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelarlindodias/autecod/issues"
+  },
+  "homepage": "https://github.com/rafaelarlindodias/autecod#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
