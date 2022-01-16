@@ -1,8 +1,8 @@
-body {
-  background: #000; }
-
-.bg-red {
+.bg-vermelho {
   background-color: #993333; }
+
+.bg-azul {
+  background-color: #0077bb; }
 
 .text-rodape {
   color: #fff; }
