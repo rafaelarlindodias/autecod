@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="br">
+<html lang="pt-BR">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,19 +7,46 @@
     <meta name="author" content="Rafael Dias">
     <meta name="generator" content="Hugo 0.88.1">
     <title>AuteCod · Sistema de autenticação via QrCode</title>
-    <link href="stylesass.css" rel="stylesheet">
+
     <!-- Bootstrap core CSS -->
     <link href="bootstrap-5.1.3/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="stylesass.css" rel="stylesheet">
   </head>
   <body>
+    <header>
+      <div class="navbar navbar-dark bg-light shadow-sm">
+        <div class="container">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <img src="img/logo.png">
+            <span class="fs-4 text-dark">Aute<strong>Code</strong></span>
+          </a>
+          <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">Sobre</h4>
+              <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Entrar</h4>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white">Feedback</a></li>
+                <li><a href="#" class="text-white">Configurações</a></li>
+                <li><a href="#" class="text-white decorate-none">Sair</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
 <main>
   <div class="container py-4">
-    <header class="pb-3 mb-4 border-bottom">
-      <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
-        <img src="img/logo.png">
-        <span class="fs-4">Aute<strong>Code</strong></span>
-      </a>
-    </header>
     <div class="row align-items-md-stretch">
       <div class="col-md-6">
         <div class="card h-100">
@@ -44,10 +71,11 @@
     </div>
   </div>
 </main>
-<footer class="footer mt-auto py-3 bg-red">
+<footer class="footer mt-auto py-3 bg-azul">
   <div class="container">
     <span class="pt-3 mt-4 text-rodape">©2021 - AuteCode</span>
   </div>
 </footer>
+    <script src="bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
