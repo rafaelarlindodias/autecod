@@ -36,7 +36,7 @@
               autorizar o acesso de pessoas através da geração de QR Code individual.</p>
               <p class="text-muted">Saiba mais acessando <a href="#">Guia completo</a></p>
             </div>
-            <div class="col-sm-4 offset-md-1 py-4 opac">
+            <div class="col-sm-4 offset-md-1 py-4">
               <h4 class="text-white"></h4>
               <ul class="list-unstyled">
                 <li><a href="#" class="text-white text-decoration-none">Configurações</a></li>
@@ -52,9 +52,9 @@
   <div class="container py-4">
     <div class="row align-items-md-stretch">
       <div class="col-md-6">
-        <div class="card h-100 bg-light">
+        <div class="card h-100">
         <img src="img/qrcodeinstrucao.jpg" class="card-img-top" alt="Instrição QrCode">
-        <div class="card-body">
+        <div class="card-body pb-5">
             <h2>Aponte o QrCode no leitor</h2>
             <p class="card-text">Após acessar sua conta, você receberá um ou mais código QR Code.
               Esta simples ação permetirá seu acesso, caso você esteja previamente autorizado. </p>
@@ -62,8 +62,8 @@
       </div>
       </div>
       <div class="col-md-6">
-        <div class="h-100 px-5 rounded-3">
-          <h3 class="pb-2">Acesse sua conta</h3>
+        <div class="card h-100 px-5 rounded-3 bg-light">
+          <h3 class="pt-3 pb-3">Acesse sua conta</h3>
           <form>
             <div class="form-group">
               <label for="exampleInputEmail1">E-mail ou username</label>
@@ -78,10 +78,13 @@
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
               <label class="form-check-label pb-3" for="exampleCheck1">Lembrar-me</label>
             </div>
-            <button type="submit" class="btn btn-primary">Entrar</button>
+            <div class="text-left">
+              <button type="submit" class="btn btn-primary w-50">Entrar</button>
+            </div>
             <div class="form-group pt-5">
               <label class="pb-3" for="criarconta">Não possui conta? Cadastra-se.</label>
-              <button type="submit" class="btn btn-outline-dark">Cadastrar</button>
+              <button type="submit" class="btn btn-outline-dark pb-2">Cadastrar</button>
+              <p class="pt-3">Esqueci minha senha. <a href="#" class="text-decoration-none">Recuperar</a></p>
             </div>
           </form>
         </div>
@@ -89,7 +92,7 @@
     </div>
   </div>
 </main>
-<footer class="footer mt-auto py-3 bg-azul">
+<footer class="footer mt-auto fixed-bottom py-3 bg-azul">
   <div class="container">
     <span class="pt-3 mt-4 text-rodape">©2021 - AuteCode</span>
   </div>
